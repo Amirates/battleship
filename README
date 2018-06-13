@@ -1,3 +1,5 @@
+Copy + paste the code from https://github.com/Amirates/battleship/blob/master/Battleship/src/BattleShip.java in e.g. Eclipse and run it! 
+
 Rules of Battleship in Java Game:
 There is a 7x7 board, ie 49 blocks. There are 5 hidden ships (one in each block).
 The objective of the game is figuring out where these ships are placed and hit them.
