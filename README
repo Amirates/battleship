@@ -25,9 +25,15 @@ Labels of the board:
   
   Methods:
 void initBoard (int[][] board) - initially sets the value -1 in all blocks of the board
+
 void showBoard (int[][] board) - gets the int matrix and shows the board game
+
 void initShip (int[][] ships) - this method randomly select 5 pairs of integers numbers, which are the location of the 5 ships
+
 void shoot (int[] shot) - gets a shot (row and column) of the user, and stores in variable shot[]
+
 boolean shotHit(int[] shot, int[][] ships) - checks if given shot hit a ship
+
 void hint(int [] shot, int[][] ships, int attempt) - gives a hint of how many ships are in that row and that column where the shot was given
+
 void changeBoard (int[] shot, int[][] ships, int[][] board) - after the shot is given, the board is changed, showing that the shot was given (if hit or missed)
